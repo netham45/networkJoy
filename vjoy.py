@@ -2,7 +2,6 @@
 
 import ctypes
 import struct, time
-import numpy as np
 
 CONST_DLL_VJOY = "C:\\Program Files\\vJoy\\x86\\vJoyInterface.dll"
 
