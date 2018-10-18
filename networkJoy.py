@@ -1,5 +1,4 @@
 from vjoy import vj
-import numpy as np
 import select,socket,struct,time
 	
 	
