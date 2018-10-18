@@ -9,9 +9,7 @@ The linux server is just the event device piped into a network port. The Windows
 
 Prerequesites:
 
-Requires numpy and vJoy  
-Use pip to get numpy  
-Get vJoy from http://vjoystick.sourceforge.net/site/index.php/download-a-install/download
+Requires vJoy - You can get vJoy from http://vjoystick.sourceforge.net/site/index.php/download-a-install/download
 
 To set up the Windows client:
 
