@@ -1,11 +1,6 @@
 from vjoy import vj
 import numpy as np
 import select,socket,struct,time
-
-def sendUpdate():
-	if buttons < 0:
-		buttons = 0
-	vj.update(vj.generateJoystickPosition( lButtons = buttons,  wAxisX = stickX + 16384, wAxisY = stickY + 16384, wAxisXRot = dpadX/2+16384, wAxisYRot = dpadY/2+16384 ))
 	
 	
 #Connection settings
@@ -18,6 +13,12 @@ stickX=0
 stickY=0
 dpadX=0
 dpadY=0
+
+
+def sendUpdate():
+	if buttons < 0:
+		buttons = 0
+	vj.update(vj.generateJoystickPosition( lButtons = buttons,  wAxisX = stickX + 16384, wAxisY = stickY + 16384, wAxisXRot = dpadX/2+16384, wAxisYRot = dpadY/2+16384 ))
 
 vj.open()
 
