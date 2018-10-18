@@ -1,5 +1,5 @@
 # networkJoy
-Setup for running a gamepad across a network -- Made for relaying an N64 controller from a Raspberry Pi to a Windows host using vJoy
+Setup for running a gamepad across a network -- Made for relaying an N64 controller from a Raspberry Pi server to a Windows client using vJoy
 
 I am using https://github.com/marqs85/gamecon_gpio_rpi/ for the N64 driver
 
